@@ -3,212 +3,318 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#10583e">
-<title>ام صيقعون الجنيد</title>
+<meta name="theme-color" content="#0f3d2e">
+<meta name="description" content="مبادرة أهلية لتنمية قرية ام صيقعون الجنيد: التعليم والمياه والصحة.">
+<title>ام صيقعون الجنيد | مبادرة تنمية القرية</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Amiri:wght@700&display=swap" rel="stylesheet">
 <style>
-:root{--navy:#073b32;--green:#08764f;--mint:#21c99a;--gold:#f4c64e;--bg:#edf7f7;--ink:#172d35;--muted:#71838a;--line:#dce9e9}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Tahoma,"Segoe UI",sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer;border:0}.wrap{max-width:1120px;margin:auto;padding:0 18px}
-.top{background:linear-gradient(100deg,#07503d,#063b38);color:white;padding:15px 0;box-shadow:0 5px 22px #063c3825;position:relative;z-index:2}.topin{display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{font-size:21px;font-weight:900;line-height:1.5}.brand small{display:block;color:#c6f7e7;font-size:12px;font-weight:500}.brandmark{display:flex;align-items:center;gap:10px}.logo{width:45px;height:45px;border-radius:15px;background:linear-gradient(140deg,#fff,#d9fff0);display:grid;place-items:center;color:#08764f;font-size:25px;box-shadow:0 0 0 2px #f4c64e}
-.nav{display:flex;gap:7px;flex-wrap:wrap}.nav a{color:#eafff8;text-decoration:none;padding:10px 12px;border-radius:22px;font-size:13px}.nav a:hover{background:#ffffff20}
-.hero{margin:18px auto 24px;min-height:390px;border-radius:26px;overflow:hidden;position:relative;background:linear-gradient(90deg,#042f2ddf 0%,#064d40c9 48%,#063d36a8 100%),url('school.jpg') center/cover;color:#fff;display:flex;align-items:center;padding:42px 6%;box-shadow:0 15px 35px #073b3226}.hero:after{content:"";position:absolute;inset:auto 0 0;height:9px;background:linear-gradient(90deg,var(--gold),var(--mint),var(--gold))}.hero-content{max-width:600px;position:relative;z-index:1}.eyebrow{display:inline-block;border:1px solid #ffffff70;border-radius:30px;padding:8px 15px;color:#ffe38a;font-size:13px;margin-bottom:15px}.hero h1{font-size:clamp(34px,6vw,58px);line-height:1.25;margin:0 0 13px;font-weight:900}.hero h1 span{color:#ffd65e}.hero p{font-size:17px;line-height:2;color:#effff9;margin:0 0 23px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap}.btn{background:linear-gradient(110deg,#0b8158,#07523e);color:white;padding:13px 20px;border-radius:13px;font-weight:bold;box-shadow:0 6px 16px #07523e25}.btn:hover{filter:brightness(1.08)}.btn.gold{background:linear-gradient(110deg,#ffdf72,#eebc37);color:#143e32}.btn.light{background:#eaf7f2;color:var(--green);box-shadow:none}.btn.red{background:#b83b3b}.btn:disabled{opacity:.6}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin:-5px 0 28px}.stat{background:#fff;border:1px solid #dcebea;border-radius:18px;text-align:center;padding:19px 10px;box-shadow:0 8px 22px #073b3210}.stat b{display:block;color:#08764f;font-size:25px}.stat small{color:#62777a;font-size:13px}.section{margin:30px 0}.section-title{display:flex;align-items:center;gap:12px;margin:0 0 16px;color:#07533f;font-size:23px;font-weight:900}.section-title:after{content:"";height:2px;background:linear-gradient(90deg,#1bc797,transparent);flex:1}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.card{background:white;border:1px solid #dce9e8;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px #123e3b10}.card-body{padding:17px}.card h3{font-size:18px;margin:0 0 8px;color:#123d36}.card-image{width:100%;height:190px;object-fit:cover;display:block}.muted{color:var(--muted);font-size:13px;line-height:1.9}.goal{font-size:12px;color:var(--green);font-weight:bold;margin-top:10px}.progress{height:9px;border-radius:20px;background:#e6eeee;overflow:hidden;margin-top:9px}.progress span{display:block;height:100%;background:linear-gradient(90deg,#08764f,#25c89b);border-radius:20px}.empty{text-align:center;color:#929c95;padding:20px;font-size:13px}
-.feature-row{display:grid;grid-template-columns:1.1fr .9fr;gap:17px}.donate-card{background:linear-gradient(145deg,#07503d,#087a55);color:white;border-radius:22px;padding:22px;box-shadow:0 10px 25px #07503d25}.donate-card h2{margin:0 0 8px;font-size:23px}.donate-card .muted{color:#d7f4e9}.whatsapp-card{min-height:300px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}.wa-icon{width:58px;height:58px;border-radius:50%;background:#d9ffeb;color:#08764f;display:grid;place-items:center;font-size:34px;font-weight:bold;margin-bottom:12px}.wa-button{display:inline-flex;align-items:center;gap:12px;text-decoration:none;margin-top:12px;font-size:15px}.wa-button span{font-size:20px}.wa-note{color:#c6f7e7;font-size:12px;margin:18px 0 0}.donate-card input,.donate-card select,.donate-card textarea{background:#fff;color:#183b35;border:0}.amounts{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}.amounts button{background:#e8fff4;color:#075b43;padding:11px 4px;border-radius:10px;font-size:12px;font-weight:bold}.field{margin:11px 0}.field label{display:block;font-size:12px;color:inherit;margin-bottom:6px}.donate-card .field label{color:#e3fff4}input,select,textarea{width:100%;padding:12px;border:1px solid #dce4de;border-radius:10px;background:#fbfcfb;outline:none}input:focus,select:focus,textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px #16745116}textarea{min-height:70px;resize:vertical}.msg{font-size:12px;min-height:18px;color:#b83b3b;margin:8px 0}.msg.ok{color:#c5ffe2}.side-note{background:#fff;border:1px solid #dce9e8;border-radius:22px;padding:23px;display:flex;flex-direction:column;justify-content:center}.side-note h3{color:#07533f;font-size:21px;margin:0 0 8px}.side-note .mini-pics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}.mini-pics img{width:100%;height:85px;object-fit:cover;border-radius:10px}
-.achievements-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.achievement{padding:18px;background:white;border:1px solid var(--line);border-radius:16px}.achievement h3{margin:0 0 8px;color:#07533f}
-.footer{background:linear-gradient(110deg,#063b32,#07523d);color:#e8fff5;text-align:center;padding:34px 16px;margin-top:45px;font-size:13px;line-height:2}.footer strong{color:#ffdc70;font-size:18px}.footer .btn{margin-top:12px}
-.overlay{position:fixed;inset:0;background:#061b12bb;display:flex;align-items:center;justify-content:center;padding:16px;z-index:30;overflow:auto}.modal{background:white;border-radius:19px;padding:22px;width:100%;max-width:430px;box-shadow:0 20px 60px #0004}.modal h2{margin:0 0 7px;color:var(--navy);font-size:20px}.modal-head{display:flex;justify-content:space-between;align-items:center}.close{background:#eef2ef;color:#526057;border-radius:8px;padding:8px 11px}.hidden{display:none!important}
-#adminApp{max-width:1050px;margin:18px auto;padding:0 14px 40px}.admin-head{background:#fff;border:1px solid var(--line);padding:15px;border-radius:13px;display:flex;justify-content:space-between;align-items:center;gap:10px}.admin-head h2{font-size:17px;margin:0;color:var(--navy)}.tabs{display:flex;gap:7px;overflow-x:auto;padding:13px 0}.tab{white-space:nowrap;background:white;border:1px solid var(--line);color:#59645d;padding:10px 13px;border-radius:9px;font-size:12px}.tab.active{background:var(--green);color:#fff}.panel{display:none}.panel.active{display:block}.admin-head .meta,.meta{font-size:11px;color:var(--muted);margin-top:5px;line-height:1.7}.item{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#f8faf8;border:1px solid #edf1ed;border-right:4px solid var(--green);border-radius:9px;padding:11px;margin:8px 0}.itemmain{min-width:0;flex:1}.itemtitle{font-size:13px;font-weight:bold;overflow-wrap:anywhere}.money{font-size:13px;color:var(--green);font-weight:bold;white-space:nowrap}.badge{font-size:10px;border-radius:5px;padding:4px 6px;background:#fff0ce;color:#805d15}.badge.ok{background:#dff2e5;color:#17633c}.badge.no{background:#fbe4e4;color:#a52c2c}.actions{display:flex;gap:5px;flex-wrap:wrap}.actions button{padding:7px 9px;border-radius:7px;background:var(--green);color:#fff;font-size:11px}.actions .reject{background:#b83b3b}.subhead{font-weight:bold;font-size:14px;border-bottom:1px solid var(--line);padding:12px 0 8px;margin-top:12px}.admin-card{background:white;border:1px solid var(--line);border-radius:13px;padding:15px;margin-bottom:12px}
-@media(max-width:720px){.nav{display:none}.hero{min-height:360px;padding:30px 23px;background-position:55% center}.hero p{font-size:15px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.card-image{height:140px}.card-body{padding:13px}.feature-row{grid-template-columns:1fr}.stats{gap:8px}.stat{padding:15px 6px}.stat b{font-size:21px}.achievements-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:420px){.wrap{padding:0 12px}.brand{font-size:17px}.hero{min-height:335px;border-radius:19px}.hero h1{font-size:34px}.hero p{font-size:14px}.grid{gap:9px}.card-image{height:120px}.card h3{font-size:15px}.amounts{grid-template-columns:repeat(2,1fr)}.achievements-grid{grid-template-columns:1fr}}
+:root{--ink:#14261f;--deep:#0f3d2e;--green:#17724f;--sand:#f6f1e6;--paper:#fffdf8;--ochre:#c8932f;--muted:#5f6f68;--line:#e3dccb;--danger:#a63a32;--r:14px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--sand);color:var(--ink);font-family:Cairo,Tahoma,"Segoe UI",sans-serif;line-height:1.9}
+button,input,select,textarea{font:inherit}button{cursor:pointer;border:0}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--ochre);outline-offset:2px}
+.wrap{max-width:1100px;margin:auto;padding:0 20px}
+.skip{position:absolute;top:-60px;right:10px;background:#fff;padding:8px 14px;border-radius:8px;z-index:50}.skip:focus{top:10px}
+/* header */
+.top{position:sticky;top:0;z-index:20;background:#fffdf8ee;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topin{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--deep)}
+.logo{width:42px;height:42px;border-radius:50%;background:var(--deep);color:var(--ochre);display:grid;place-items:center;font-size:22px}
+.brand b{font-family:Amiri,serif;font-size:23px;line-height:1.2}.brand small{display:block;font-size:12px;color:var(--muted);font-family:Cairo}
+.nav{display:flex;gap:4px}.nav a{color:var(--ink);text-decoration:none;padding:8px 14px;border-radius:99px;font-size:15px;font-weight:600}.nav a:hover{background:#17724f14}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--deep);color:#fff;padding:12px 24px;border-radius:99px;font-weight:700;text-decoration:none;transition:background .2s,transform .2s}
+.btn:hover{background:var(--green)}.btn:active{transform:scale(.98)}.btn.gold{background:var(--ochre);color:#1b1608}.btn.gold:hover{background:#d9a53f}
+.btn.ghost{background:transparent;color:#fff;box-shadow:inset 0 0 0 1.5px #ffffffaa}.btn.ghost:hover{background:#ffffff1f}
+.btn.sm{padding:6px 14px;font-size:13px}.btn.red{background:var(--danger)}.btn:disabled{opacity:.55;cursor:wait}
+/* hero */
+.hero{position:relative;background:linear-gradient(100deg,#0a2c20f2 15%,#0f3d2ec7 60%,#0f3d2e80),url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600') center/cover,var(--deep);color:#fff;padding:96px 0 110px}
+.hero h1{font-family:Amiri,serif;font-size:clamp(40px,7vw,72px);line-height:1.3;margin:0 0 16px;max-width:680px}
+.hero p{font-size:18px;max-width:560px;margin:0 0 30px;color:#e7f1ec}.hero .acts{display:flex;gap:12px;flex-wrap:wrap}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:6px;background:repeating-linear-gradient(90deg,var(--ochre) 0 24px,transparent 24px 36px)}
+/* sections */
+.section{padding:64px 0}.section.alt{background:var(--paper);border-block:1px solid var(--line)}
+h2.st{font-family:Amiri,serif;font-size:34px;color:var(--deep);margin:0 0 6px}.lead{color:var(--muted);margin:0 0 32px;max-width:620px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:24px;display:flex;flex-direction:column}
+.pic{width:52px;height:52px;border-radius:12px;background:#17724f1a;display:grid;place-items:center;font-size:26px;margin-bottom:14px}
+.card h3{margin:0 0 6px;font-size:20px;color:var(--deep)}.muted{color:var(--muted);font-size:15px;margin:0}
+.bar{height:8px;background:#e8e2d2;border-radius:9px;overflow:hidden;margin:16px 0 8px}.bar span{display:block;height:100%;background:linear-gradient(90deg,var(--green),var(--ochre));border-radius:9px;transition:width .8s}
+.nums{display:flex;justify-content:space-between;font-size:13px;font-weight:600;color:var(--green)}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:34px;border:1.5px dashed var(--line);border-radius:var(--r)}
+.ach{border-right:4px solid var(--ochre)}.ach .cost{margin-top:auto;padding-top:12px;font-weight:700;color:var(--green);font-size:14px}
+/* join */
+.join{background:var(--deep);color:#fff;border-radius:22px;padding:44px;display:grid;grid-template-columns:1.2fr 1fr;gap:30px;align-items:center}
+.join h2{font-family:Amiri,serif;font-size:34px;margin:0 0 10px}.join p{color:#cfe3da;margin:0}
+.trust{display:grid;gap:12px}.trust div{display:flex;gap:12px;align-items:flex-start;background:#ffffff12;border-radius:12px;padding:14px 16px;font-size:15px}
+/* footer */
+.footer{background:#0a2c20;color:#cfe3da;padding:36px 0;text-align:center;font-size:14px}.footer strong{font-family:Amiri,serif;font-size:24px;color:#fff;display:block}
+.footer button{background:none;color:#8fb5a4;text-decoration:underline;font-size:13px;margin-top:10px}
+/* modal */
+.overlay{position:fixed;inset:0;background:#07160fcc;display:flex;align-items:center;justify-content:center;padding:16px;z-index:40;overflow:auto}
+.modal{background:var(--paper);border-radius:18px;padding:26px;width:100%;max-width:420px}.modal h2{margin:0 0 6px;font-family:Amiri,serif;color:var(--deep)}
+.mh{display:flex;justify-content:space-between;align-items:center}.close{background:#efe9d9;border-radius:8px;padding:6px 12px;font-weight:700}
+.hidden{display:none!important}
+.field{margin:14px 0}.field label{display:block;font-size:13px;font-weight:700;margin-bottom:6px}
+input,select,textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:#fff}textarea{min-height:80px;resize:vertical}
+.msg{font-size:13px;min-height:20px;color:var(--danger);font-weight:600;margin:8px 0 0}.msg.ok{color:var(--green)}
+/* admin */
+#adminApp{max-width:1000px;margin:24px auto;padding:0 16px 50px}
+.ahead{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ahead h2{margin:0;font-size:20px;color:var(--deep)}.meta{font-size:12px;color:var(--muted)}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding:14px 0}.tab{white-space:nowrap;background:var(--paper);border:1px solid var(--line);padding:9px 16px;border-radius:99px;font-weight:700;font-size:14px;color:var(--ink)}
+.tab.active{background:var(--deep);color:#fff;border-color:var(--deep)}
+.panel{display:none;background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:22px}.panel.active{display:block}.panel h3{margin:0 0 14px;color:var(--deep)}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.kpi{background:var(--sand);border-radius:12px;padding:16px;text-align:center}.kpi b{display:block;font-size:26px;color:var(--green)}.kpi small{color:var(--muted);font-weight:600}
+.item{display:flex;justify-content:space-between;align-items:center;gap:12px;border:1px solid var(--line);border-right:4px solid var(--green);border-radius:10px;padding:12px 14px;margin:10px 0;background:#fff}
+.item .t{font-weight:700;overflow-wrap:anywhere}.item .acts{display:flex;gap:6px;flex-wrap:wrap}
+.badge{font-size:11px;border-radius:6px;padding:3px 8px;background:#f6e7c1;color:#6b4d0a;font-weight:700}
+.sub{font-weight:700;border-bottom:2px solid var(--line);padding:14px 0 8px;margin-top:20px;color:var(--deep)}
+.card{overflow:hidden}.cimg{width:calc(100% + 48px);margin:-24px -24px 16px;height:170px;object-fit:cover;display:block;background:#dfe8e2}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:-46px;position:relative;z-index:2}.stats div{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:16px;text-align:center}.stats b{display:block;font-size:28px;color:var(--green)}.stats small{color:var(--muted);font-weight:600}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gal img{width:100%;height:210px;object-fit:cover;border-radius:var(--r);background:#dfe8e2}
+.dform{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:26px;max-width:560px;margin:auto}.dform .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fab{position:fixed;bottom:18px;left:18px;z-index:15;background:#1fa855;color:#fff;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font-size:26px;text-decoration:none;box-shadow:0 6px 18px #0004}
+@media(max-width:760px){.stats,.gal,.dform .row2{grid-template-columns:1fr}.gal img{height:180px}}
+@media(max-width:760px){.nav{display:none}.grid,.kpis{grid-template-columns:1fr}.join{grid-template-columns:1fr;padding:28px}.hero{padding:64px 0 80px}.section{padding:44px 0}}
+@media(min-width:761px) and (max-width:960px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap topin">
- <div class="brandmark"><div class="logo">🌿</div><div class="brand">ام صيقعون الجنيد<small>ام صيقعون — معاً نبني مستقبل قريتنا</small></div></div>
- <nav class="nav"><a href="#home">الرئيسية</a><a href="#projects">المشاريع</a><a href="#donate">ساهم في قريتنا</a><a href="#achievements">الإنجازات</a><a href="#contact">تواصل معنا</a></nav>
-</div></header>
+<a class="skip" href="#projects">تخطَّ إلى المحتوى</a>
+
 <div id="publicSite">
- <div class="wrap">
-  <section class="hero" id="home"><div class="hero-content"><span class="eyebrow">🌱 مبادرة أهلية لتنمية ام صيقعون</span><h1>ام صيقعون الجنيد<br><span>ام صيقعون</span></h1><p>بالعطاء والتكاتف نبني مدرستنا، ونوفر مياه الشرب، وندعم الرعاية الصحية. مساهمتك اليوم تصنع فرقاً حقيقياً في حياة أهل القرية.</p><div class="hero-actions"><a href="#donate"><button class="btn gold">ساهم في قريتنا ♥</button></a><a href="#projects"><button class="btn" style="background:#ffffff20;border:1px solid #ffffff90">استعرض المشاريع</button></a></div></div></section>
-  <section class="stats"><div class="stat"><b>٣</b><small>مشاريع مجتمعية</small></div><div class="stat"><b>معاً</b><small>قوة أهل ام صيقعون</small></div><div class="stat"><b>١٠٠٪</b><small>شفافية ومتابعة</small></div></section>
-  <section class="section" id="projects"><h2 class="section-title">مشاريعنا المجتمعية</h2>
-   <div class="grid" id="publicProjects">
-    <article class="card"><img class="card-image" src="school.jpg" alt="تصور بالذكاء الاصطناعي لمدرسة"><div class="card-body"><h3>تطوير مدرسة ام صيقعون</h3><p class="muted">دعم البيئة التعليمية وتوفير احتياجات المدرسة.</p><div class="goal">مشروع التعليم</div></div></article>
-    <article class="card"><img class="card-image" src="well.jpg" alt="تصور بالذكاء الاصطناعي لبئر مياه"><div class="card-body"><h3>بئر مياه القرية</h3><p class="muted">توفير مياه نظيفة وآمنة لأهل المنطقة.</p><div class="goal">مشروع المياه</div></div></article>
-    <article class="card"><img class="card-image" src="clinic.jpg" alt="تصور بالذكاء الاصطناعي للمركز الصحي"><div class="card-body"><h3>دعم المركز الصحي</h3><p class="muted">المساهمة في تحسين الخدمات الصحية والعلاجية.</p><div class="goal">مشروع الصحة</div></div></article>
-   </div>
-  </section>
-  <section class="section feature-row" id="donate">
-   <div class="donate-card whatsapp-card"><div class="wa-icon">✆</div><h2>ساهم في قريتنا 💚</h2><p class="muted">انضم إلى قروب المساهمة على واتساب، وتابع أخبار المبادرة والمشاريع والمساهمات، وكن جزءاً من جهود أهل ام صيقعون الجنيد.</p><a class="btn gold wa-button" href="https://chat.whatsapp.com/HWuFMI21WWQ4CJzGRTPmEO?s=cl&amp;p=a&amp;mlu=4&amp;ilr=4&amp;iam=2" target="_blank" rel="noopener noreferrer">انضم إلى قروب المساهمة على واتساب <span>↗</span></a><p class="wa-note">يداً بيد نبني قريتنا — مشاركتك تصنع الفرق</p></div>
-   <aside class="side-note"><h3>ام صيقعون تستحق الأفضل</h3><p class="muted">بجهود أبنائها وتعاونهم، نعمل على دعم التعليم والمياه والصحة. هذه الصور تصورات توضيحية مولّدة بالذكاء الاصطناعي وليست صوراً توثيقية للمواقع.</p><div class="mini-pics"><img src="school.jpg" alt="المدرسة"><img src="well.jpg" alt="البئر"><img src="clinic.jpg" alt="المركز الصحي"></div></aside>
-  </section>
-  <section class="section" id="achievements"><h2 class="section-title">إنجازات أهل القرية</h2><div id="publicAchievements" class="achievements-grid"><div class="achievement"><h3>التعليم</h3><p class="muted">خطوة نحو بيئة تعليمية أفضل.</p></div><div class="achievement"><h3>المياه</h3><p class="muted">نعمل معاً لتوفير مياه آمنة.</p></div><div class="achievement"><h3>الصحة</h3><p class="muted">دعم الخدمات الصحية لأهلنا.</p></div></div></section>
+<header class="top"><div class="wrap topin">
+ <a class="brand" href="#home"><span class="logo" aria-hidden="true">🌿</span><span><b>ام صيقعون الجنيد</b><small>مبادرة أهلية لتنمية القرية</small></span></a>
+ <nav class="nav" aria-label="القائمة الرئيسية"><a href="#projects">المشاريع</a><a href="#achievements">الإنجازات</a><a href="#join">ساهم معنا</a><a href="#contact">تواصل</a></nav>
+</div></header>
+
+<main id="home">
+ <section class="hero"><div class="wrap">
+  <h1>قريتنا تبنيها أيدينا</h1>
+  <p>مدرسة، ومياه شرب نظيفة، ورعاية صحية. مشاريع يقودها أهل ام صيقعون الجنيد، ويتابع الجميع تقدمها خطوة بخطوة.</p>
+  <div class="acts"><a class="btn gold" href="#join">ساهم في المبادرة</a><a class="btn ghost" href="#projects">شاهد المشاريع</a></div>
+ </div></section>
+
+ <div class="wrap"><div class="stats" id="stats"><div><b id="stP">0</b><small>مشاريع جارية</small></div><div><b id="stR">0</b><small>محصَّل (ج.س)</small></div><div><b id="stA">0</b><small>إنجازات</small></div></div></div>
+ <section class="section" id="projects"><div class="wrap">
+  <h2 class="st">المشاريع الجارية</h2><p class="lead">كل مشروع له هدف معلن، ويظهر المبلغ المحصَّل مقابل المستهدف.</p>
+  <div class="grid" id="publicProjects" aria-live="polite"><div class="empty">جارٍ تحميل المشاريع…</div></div>
+ </div></section>
+
+ <section class="section alt" id="achievements"><div class="wrap">
+  <h2 class="st">ما أنجزناه معاً</h2><p class="lead">إنجازات اكتملت بفضل مساهمات أهل القرية.</p>
+  <div class="grid" id="publicAchievements" aria-live="polite"><div class="empty">جارٍ التحميل…</div></div>
+ </div></section>
+
+ <section class="section" id="gallery"><div class="wrap">
+  <h2 class="st">صور من القرية</h2><p class="lead">صور توضيحية للمشاريع المخطط لها، وستُستبدل بصور التنفيذ الفعلية.</p>
+  <div class="gal"><img loading="lazy" src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=700" alt="المدرسة"><img loading="lazy" src="https://images.unsplash.com/photo-1541888075-3e568a141e11?w=700" alt="مياه الشرب"><img loading="lazy" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=700" alt="المركز الصحي"></div>
+ </div></section>
+ <section class="section" id="join"><div class="wrap"><div class="join">
+  <div><h2>كن جزءاً من المبادرة</h2><p>انضم إلى قروب المساهمة على واتساب لمتابعة الأخبار والمشاريع، ومعرفة طريقة المساهمة المعتمدة.</p>
+  <p style="margin-top:22px"><a class="btn gold" href="https://chat.whatsapp.com/HWuFMI21WWQ4CJzGRTPmEO" target="_blank" rel="noopener noreferrer">انضم إلى قروب واتساب</a></p></div>
+  <div class="trust"><div><span aria-hidden="true">📋</span>تُسجَّل كل مساهمة وتُراجَع قبل اعتمادها.</div><div><span aria-hidden="true">📊</span>يظهر التقدم لكل مشروع علناً في هذه الصفحة.</div><div><span aria-hidden="true">🤝</span>تُنفَّذ المشاريع بإشراف أبناء القرية.</div></div>
+ </div></div></section>
+ <section class="section alt" id="donate"><div class="wrap"><div class="dform">
+  <h3>سجّل مساهمتك</h3><p class="muted">يسجّل هذا النموذج نيّتك فقط، ولا يحوّل أي مال. تتواصل معك الإدارة لتأكيد المساهمة بالطريقة المعتمدة.</p>
+  <div class="field"><label for="dProject">المشروع</label><select id="dProject"></select></div>
+  <div class="row2"><div class="field"><label for="dAmount">المبلغ (ج.س)</label><input id="dAmount" type="number" min="1" inputmode="numeric"></div><div class="field"><label for="dMethod">طريقة الدفع</label><select id="dMethod"><option>تطبيق بنكي</option><option>تحويل</option><option>نقداً</option></select></div></div>
+  <div class="field"><label for="dPhone">رقم الهاتف</label><input id="dPhone" type="tel" inputmode="tel" dir="ltr" autocomplete="tel"></div>
+  <button class="btn" id="dSend" type="button" style="width:100%">أرسل المساهمة</button><p id="dMsg" class="msg" role="status"></p>
+ </div></div></section>
+</main>
+<a class="fab" href="https://chat.whatsapp.com/HWuFMI21WWQ4CJzGRTPmEO" target="_blank" rel="noopener noreferrer" aria-label="قروب واتساب">✆</a>
+
+<footer class="footer" id="contact"><div class="wrap">
+ <strong>ام صيقعون الجنيد</strong>
+ <p style="margin:6px 0 14px">للاستفسار عن المساهمات أو المشاريع، تواصل عبر قروب واتساب.</p>
+ <a class="btn gold sm" href="https://chat.whatsapp.com/HWuFMI21WWQ4CJzGRTPmEO" target="_blank" rel="noopener noreferrer">قروب المساهمة</a>
+ <div style="margin-top:18px">© 2026 ام صيقعون الجنيد</div>
+ <button id="openAdmin" type="button">دخول الإدارة</button>
+</div></footer>
+</div>
+
+<div id="adminLogin" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+ <div class="modal">
+  <div class="mh"><h2 id="loginTitle">دخول الإدارة</h2><button class="close" id="closeAdmin" type="button">إغلاق</button></div>
+  <div class="field"><label for="adminEmail">البريد الإلكتروني</label><input id="adminEmail" type="email" autocomplete="username" dir="ltr"></div>
+  <div class="field"><label for="adminPassword">كلمة المرور</label><input id="adminPassword" type="password" autocomplete="current-password" dir="ltr"></div>
+  <button class="btn" id="adminLoginButton" type="button" style="width:100%">تسجيل الدخول</button><p id="adminMessage" class="msg" role="alert"></p>
  </div>
- <footer class="footer" id="contact"><strong>ام صيقعون الجنيد — ام صيقعون</strong><br>يداً بيد، نبني قريتنا ونصنع مستقبلاً أفضل للأجيال القادمة.<br><button class="btn gold" id="openContact">تواصل معنا</button><div style="margin-top:18px;color:#b9dfd2">© 2026 ام صيقعون الجنيد — جميع الحقوق محفوظة</div></footer>
-</div>
-
-<div id="contactModal" class="overlay hidden">
-  <div class="modal">
-    <div class="modal-head"><h2>تواصل معنا</h2><button class="close" id="closeContact">إغلاق</button></div>
-    <p class="muted">للاستفسارات أو متابعة المساهمات، تواصل مع إدارة ام صيقعون الجنيد عبر قنوات التواصل المعتمدة.</p>
-    <div class="card" style="margin:12px 0"><strong>إدارة ام صيقعون الجنيد</strong><p class="muted">تواصل مع إدارة ام صيقعون الجنيد عبر قنوات التواصل المعتمدة.</p></div>
-    <div style="text-align:center;margin-top:16px"><button class="close" id="openAdmin">دخول الإدارة</button></div>
-  </div>
-</div>
-
-<div id="adminLogin" class="overlay hidden">
-  <div class="modal">
-    <div class="modal-head"><h2>دخول المسؤول</h2><button class="close" id="closeAdmin">إغلاق</button></div>
-    <p class="muted">لوحة الإدارة محمية بحساب Firebase الخاص بك.</p>
-    <div class="field"><label>البريد الإلكتروني</label><input id="adminEmail" type="email" autocomplete="username" placeholder="بريد المسؤول"></div>
-    <div class="field"><label>كلمة المرور</label><input id="adminPassword" type="password" autocomplete="current-password" placeholder="كلمة المرور"></div>
-    <button class="btn" id="adminLoginButton">تسجيل الدخول</button><p id="adminMessage" class="msg"></p>
-  </div>
 </div>
 
 <div id="adminApp" class="hidden">
-  <div class="admin-head"><div><h2>لوحة تحكم ام صيقعون الجنيد — ام صيقعون</h2><div class="meta" id="adminIdentity"></div></div><button class="btn red" id="adminLogout" style="width:auto">خروج</button></div>
-  <nav class="tabs"><button class="tab active" data-panel="dashboardPanel">نظرة عامة</button><button class="tab" data-panel="pendingPanel">المساهمات المعلقة</button><button class="tab" data-panel="confirmedPanel">المؤكدة</button><button class="tab" data-panel="projectsPanel">المشاريع</button><button class="tab" data-panel="achievementsPanel">الإنجازات</button><button class="tab" data-panel="usersPanel">المستخدمون</button></nav>
-  <section id="dashboardPanel" class="panel active admin-card"><h3>ملخص لوحة التحكم</h3><div class="stats"><div class="stat"><small>إجمالي التبرعات المؤكدة</small><b id="adminTotal">0</b><small>ج.س</small></div><div class="stat"><small>عدد المساهمات المؤكدة</small><b id="adminCount">0</b></div><div class="stat"><small>المشاريع</small><b id="adminProjectsCount">0</b></div></div><p class="muted">من هنا يمكنك متابعة المساهمات وإدارة المشاريع والإنجازات والمستخدمين.</p></section>
-  <section id="pendingPanel" class="panel admin-card"><h3>مساهمات تحتاج مراجعة</h3><div id="pendingList"></div></section>
-  <section id="confirmedPanel" class="panel admin-card"><h3>آخر المساهمات المؤكدة</h3><div id="confirmedList"></div></section>
-  <section id="projectsPanel" class="panel admin-card"><h3>إدارة المشاريع</h3><div id="adminProjects"></div><div class="subhead">إضافة مشروع</div><div class="field"><label>اسم المشروع</label><input id="newProjectTitle" maxlength="100"></div><div class="field"><label>المبلغ المستهدف</label><input id="newProjectTarget" type="number" min="1"></div><div class="field"><label>الوصف</label><textarea id="newProjectDesc" maxlength="500"></textarea></div><button class="btn" id="addProject">إضافة المشروع</button><p id="projectMessage" class="msg"></p></section>
-  <section id="achievementsPanel" class="panel admin-card"><h3>إدارة الإنجازات</h3><div id="adminAchievements"></div><div class="subhead">إضافة إنجاز</div><div class="field"><label>عنوان الإنجاز</label><input id="newAchievementTitle" maxlength="100"></div><div class="field"><label>التكلفة</label><input id="newAchievementCost" type="number" min="0"></div><div class="field"><label>الوصف</label><textarea id="newAchievementDesc" maxlength="500"></textarea></div><button class="btn" id="addAchievement">إضافة الإنجاز</button><p id="achievementMessage" class="msg"></p></section>
-  <section id="usersPanel" class="panel admin-card"><h3>إدارة المستخدمين</h3><div id="usersList"></div></section>
+ <div class="ahead"><div><h2>لوحة إدارة القرية</h2><div class="meta" id="adminIdentity"></div></div><button class="btn red sm" id="adminLogout" type="button">خروج</button></div>
+ <nav class="tabs" aria-label="أقسام الإدارة"><button class="tab active" data-panel="dashboardPanel">نظرة عامة</button><button class="tab" data-panel="pendingPanel">معلّقة</button><button class="tab" data-panel="confirmedPanel">مؤكدة</button><button class="tab" data-panel="projectsPanel">المشاريع</button><button class="tab" data-panel="achievementsPanel">الإنجازات</button><button class="tab" data-panel="usersPanel">المستخدمون</button></nav>
+ <section id="dashboardPanel" class="panel active"><h3>ملخص</h3><div class="kpis"><div class="kpi"><b id="adminTotal">0</b><small>إجمالي المؤكد (ج.س)</small></div><div class="kpi"><b id="adminCount">0</b><small>مساهمات مؤكدة</small></div><div class="kpi"><b id="adminProjectsCount">0</b><small>مشاريع</small></div></div></section>
+ <section id="pendingPanel" class="panel"><h3>مساهمات تحتاج مراجعة</h3><div id="pendingList"></div></section>
+ <section id="confirmedPanel" class="panel"><h3>المساهمات المؤكدة</h3><div id="confirmedList"></div></section>
+ <section id="projectsPanel" class="panel"><h3>المشاريع</h3><div id="adminProjects"></div>
+  <div class="sub">إضافة مشروع</div>
+  <div class="field"><label for="newProjectTitle">اسم المشروع</label><input id="newProjectTitle" maxlength="100"></div>
+  <div class="field"><label for="newProjectTarget">المبلغ المستهدف (ج.س)</label><input id="newProjectTarget" type="number" min="1" inputmode="numeric"></div>
+  <div class="field"><label for="newProjectImg">رابط صورة (https، اختياري)</label><input id="newProjectImg" dir="ltr" placeholder="https://..."></div>
+  <div class="field"><label for="newProjectDesc">الوصف</label><textarea id="newProjectDesc" maxlength="500"></textarea></div>
+  <button class="btn" id="addProject" type="button" style="width:100%">إضافة المشروع</button><p id="projectMessage" class="msg" role="status"></p></section>
+ <section id="achievementsPanel" class="panel"><h3>الإنجازات</h3><div id="adminAchievements"></div>
+  <div class="sub">إضافة إنجاز</div>
+  <div class="field"><label for="newAchievementTitle">العنوان</label><input id="newAchievementTitle" maxlength="100"></div>
+  <div class="field"><label for="newAchievementCost">التكلفة (ج.س)</label><input id="newAchievementCost" type="number" min="0" inputmode="numeric"></div>
+  <div class="field"><label for="newAchievementDesc">الوصف</label><textarea id="newAchievementDesc" maxlength="500"></textarea></div>
+  <button class="btn" id="addAchievement" type="button" style="width:100%">إضافة الإنجاز</button><p id="achievementMessage" class="msg" role="status"></p></section>
+ <section id="usersPanel" class="panel"><h3>المستخدمون</h3><div id="usersList"></div></section>
 </div>
 
 <script type="module">
 import {initializeApp} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-import {getAuth,signInWithEmailAndPassword,signOut,onAuthStateChanged,signInAnonymously} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
-import {getFirestore,collection,addDoc,onSnapshot,query,orderBy,where,doc,getDoc,setDoc,updateDoc,serverTimestamp} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
-import {getStorage,ref as storageRef,uploadBytes,getDownloadURL} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-storage.js";
+import {getAuth,signInWithEmailAndPassword,signOut,onAuthStateChanged} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+import {getFirestore,collection,addDoc,onSnapshot,query,orderBy,doc,getDoc,updateDoc,serverTimestamp,deleteDoc} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
-const firebaseConfig={
- apiKey:"AIzaSyAGqqQre1ZqCkJHYYWMuYGIWHBBMxvyBJw",
- authDomain:"amsayqoon.firebaseapp.com",
- projectId:"amsayqoon",
- storageBucket:"amsayqoon.firebasestorage.app",
- messagingSenderId:"208235060071",
- appId:"1:208235060071:web:cfbb4667f2776eb840adc2"
-};
-const app=initializeApp(firebaseConfig),auth=getAuth(app),db=getFirestore(app),storage=getStorage(app);
+const firebaseConfig={apiKey:"AIzaSyAGqqQre1ZqCkJHYYWMuYGIWHBBMxvyBJw",authDomain:"amsayqoon.firebaseapp.com",projectId:"amsayqoon",storageBucket:"amsayqoon.firebasestorage.app",messagingSenderId:"208235060071",appId:"1:208235060071:web:cfbb4667f2776eb840adc2"};
+const app=initializeApp(firebaseConfig),auth=getAuth(app),db=getFirestore(app);
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const fmt=n=>(Number(n)||0).toLocaleString("en-US");
 const date=v=>{if(!v)return "—";const d=v.toDate?v.toDate():new Date(v);return isNaN(d)?"—":d.toLocaleString("ar-EG")};
-let currentUser=null,isAdmin=false,donations=[],projects=[],achievements=[],users=[],unsubs=[];
-function msg(id,text,ok=false){$(id).textContent=text;$(id).classList.toggle("ok",ok)}
-function stop(){unsubs.forEach(f=>{try{f()}catch{}});unsubs=[]}
-function errorText(e){const m={"auth/invalid-credential":"البريد أو كلمة المرور غير صحيحة.","auth/too-many-requests":"محاولات كثيرة، حاول لاحقاً.","auth/network-request-failed":"تحقق من اتصال الإنترنت.","permission-denied":"لا توجد صلاحية. راجع قواعد Firebase.","storage/unauthorized":"لا توجد صلاحية لرفع الصورة."};return m[e.code]||("حدث خطأ: "+(e.message||"حاول مرة أخرى."))}
+let isAdmin=false,donations=[],projects=[],achievements=[],users=[],unsubs=[];
+const icons=["📚","💧","🏥","🌱","🏗️"];
+const imgs=["1503676260728-1c00da094a0b","1541888075-3e568a141e11","1519494026892-80bbd2d6fd0d"].map(x=>`https://images.unsplash.com/photo-${x}?w=700`);
+const msg=(id,t,ok=false)=>{$(id).textContent=t;$(id).classList.toggle("ok",ok)};
+const stop=()=>{unsubs.forEach(f=>{try{f()}catch{}});unsubs=[]};
+const errorText=e=>({"auth/invalid-credential":"البريد أو كلمة المرور غير صحيحة.","auth/too-many-requests":"محاولات كثيرة، حاول لاحقاً.","auth/network-request-failed":"تحقق من اتصال الإنترنت.","permission-denied":"لا توجد صلاحية لهذا الإجراء."}[e.code]||"حدث خطأ، حاول مرة أخرى.");
+const confirmDo=t=>window.confirm(t);
 
-$("openContact").onclick=()=>$("contactModal").classList.remove("hidden");
-$("closeContact").onclick=()=>$("contactModal").classList.add("hidden");
-$("contactModal").addEventListener("click",e=>{if(e.target===$("contactModal"))$("contactModal").classList.add("hidden")});
-$("openAdmin").onclick=()=>{$("contactModal").classList.add("hidden");$("adminLogin").classList.remove("hidden");msg("adminMessage","")};
-$("closeAdmin").onclick=()=>{$("adminLogin").classList.add("hidden")};
-$("adminLogin").addEventListener("click",e=>{if(e.target===$("adminLogin"))$("adminLogin").classList.add("hidden")});
+/* modal */
+$("openAdmin").onclick=()=>{$("adminLogin").classList.remove("hidden");msg("adminMessage","");$("adminEmail").focus()};
+$("closeAdmin").onclick=()=>$("adminLogin").classList.add("hidden");
+document.addEventListener("keydown",e=>{if(e.key==="Escape")$("adminLogin").classList.add("hidden")});
+$("adminPassword").addEventListener("keydown",e=>{if(e.key==="Enter")$("adminLoginButton").click()});
 $("adminLoginButton").onclick=async()=>{
  const email=$("adminEmail").value.trim(),password=$("adminPassword").value;
  if(!email||!password)return msg("adminMessage","أدخل البريد وكلمة المرور.");
- const b=$("adminLoginButton");b.disabled=true;b.textContent="جارٍ تسجيل الدخول...";
- try{await signInWithEmailAndPassword(auth,email,password)}
- catch(e){msg("adminMessage",errorText(e))}
+ const b=$("adminLoginButton");b.disabled=true;b.textContent="جارٍ الدخول…";
+ try{await signInWithEmailAndPassword(auth,email,password)}catch(e){msg("adminMessage",errorText(e))}
  finally{b.disabled=false;b.textContent="تسجيل الدخول"}
 };
-$("adminPassword").addEventListener("keydown",e=>{if(e.key==="Enter")$("adminLoginButton").click()});
-$("adminLogout").onclick=async()=>{stop();await signOut(auth);$("adminApp").classList.add("hidden");$("publicSite").classList.remove("hidden")};
+$("adminLogout").onclick=async()=>{stop();isAdmin=false;await signOut(auth)};
 
+/* auth: يتحقق من وجود وثيقة admins/{uid}. هذا تحقق للواجهة فقط؛ الحماية الفعلية في قواعد Firestore */
 onAuthStateChanged(auth,async user=>{
- stop();currentUser=user;isAdmin=false;
+ stop();isAdmin=false;
  if(!user){$("adminApp").classList.add("hidden");$("publicSite").classList.remove("hidden");return}
- // Anonymous visitors may submit a contribution; they never receive admin access.
- if(user.isAnonymous)return;
  try{
-  const snap=await getDoc(doc(db,"users",user.uid));
-  isAdmin=snap.exists()&&snap.data().role==="admin";
-  if(!isAdmin){await signOut(auth);msg("adminMessage","هذا الحساب غير مخوّل لدخول لوحة الإدارة.");$("adminLogin").classList.remove("hidden");return}
-  $("adminLogin").classList.add("hidden");$("publicSite").classList.add("hidden");$("adminApp").classList.remove("hidden");
-  $("adminIdentity").textContent=user.email||"المسؤول";
-  startAdmin();
- }catch(e){console.error(e);msg("adminMessage",errorText(e));await signOut(auth)}
+  const snap=await getDoc(doc(db,"admins",user.uid));
+  if(!snap.exists()){const u=user.uid;await signOut(auth);msg("adminMessage","لا توجد وثيقة admins/"+u+" في Firestore.");return}
+ }catch(e){await signOut(auth);msg("adminMessage",errorText(e));return}
+ isAdmin=true;
+ $("adminLogin").classList.add("hidden");$("publicSite").classList.add("hidden");$("adminApp").classList.remove("hidden");
+ $("adminIdentity").textContent=user.email||"المسؤول";
+ startAdmin();
 });
 
-// بيانات عامة للزوار: المشاريع والإنجازات فقط
-onSnapshot(query(collection(db,"projects"),orderBy("createdAt","desc")),snap=>{
- projects=snap.docs.map(d=>({id:d.id,...d.data()}));renderPublicProjects();if(isAdmin)renderAdminProjects();
-},e=>{$("publicProjects").innerHTML='<div class="card empty">تعذر تحميل المشاريع. تحقق من قواعد Firestore.</div>';console.error(e)});
-onSnapshot(query(collection(db,"achievements"),orderBy("createdAt","desc")),snap=>{
- achievements=snap.docs.map(d=>({id:d.id,...d.data()}));renderPublicAchievements();if(isAdmin)renderAdminAchievements();
-},e=>console.error(e));
+/* public data */
+onSnapshot(query(collection(db,"projects"),orderBy("createdAt","desc")),s=>{projects=s.docs.map(d=>({id:d.id,...d.data()}));renderPublicProjects();updateStats();fillSelect();if(isAdmin){renderAdminProjects();renderAdminDonations()}},e=>{$("publicProjects").innerHTML='<div class="empty">تعذّر تحميل المشاريع. حدّث الصفحة.</div>';console.error(e)});
+onSnapshot(query(collection(db,"achievements"),orderBy("createdAt","desc")),s=>{achievements=s.docs.map(d=>({id:d.id,...d.data()}));renderPublicAchievements();updateStats();if(isAdmin)renderAdminAchievements()},e=>{$("publicAchievements").innerHTML='<div class="empty">تعذّر تحميل الإنجازات.</div>';console.error(e)});
+
 function renderPublicProjects(){
  const box=$("publicProjects");box.innerHTML="";
- if(!projects.length){box.innerHTML='<div class="card empty">لا توجد مشاريع معلنة حالياً.</div>';return}
- projects.forEach(p=>{const t=(p.title||"").toLowerCase();const img=t.includes("مدرس")||t.includes("تعليم")?"school.jpg":t.includes("بئر")||t.includes("مياه")?"well.jpg":t.includes("صحي")||t.includes("مركز")?"clinic.jpg":"school.jpg";const collected=donations.filter(d=>d.status==="confirmed"&&d.projectId===p.id).reduce((a,d)=>a+(Number(d.amount)||0),0);const target=Number(p.target)||0;const pc=target?Math.min(100,Math.round(collected/target*100)):0;const div=document.createElement("article");div.className="card";div.innerHTML=`<img class="card-image" src="${img}" alt="صورة توضيحية للمشروع"><div class="card-body"><h3>${esc(p.title)}</h3><p class="muted">${esc(p.description||"تفاصيل المشروع ستضاف لاحقاً.")}</p><div class="goal">المحصل ${fmt(collected)} من ${fmt(target)} ج.س</div><div class="progress"><span style="width:${pc}%"></span></div><p class="muted">${pc}% من الهدف</p></div>`;box.appendChild(div)})
+ if(!projects.length){box.innerHTML='<div class="empty">لا توجد مشاريع معلنة حالياً.</div>';return}
+ projects.forEach((p,i)=>{
+  const raised=Number(p.raised)||0,target=Number(p.target)||0,pc=target?Math.min(100,Math.round(raised/target*100)):0;
+  const a=document.createElement("article");a.className="card";
+  a.innerHTML=`<img class="cimg" src="${esc(p.imageUrl||imgs[i%imgs.length])}" alt="" loading="lazy" onerror="this.style.display='none'"><div class="pic" aria-hidden="true">${icons[i%icons.length]}</div><h3>${esc(p.title)}</h3><p class="muted">${esc(p.description||"تفاصيل المشروع ستضاف قريباً.")}</p><div class="bar" role="progressbar" aria-valuenow="${pc}" aria-valuemin="0" aria-valuemax="100"><span style="width:${pc}%"></span></div><div class="nums"><span>${fmt(raised)} من ${fmt(target)} ج.س</span><span>${pc}%</span></div>`;
+  box.appendChild(a);
+ });
 }
+function updateStats(){$("stP").textContent=projects.length;$("stA").textContent=achievements.length;$("stR").textContent=fmt(projects.reduce((a,p)=>a+(Number(p.raised)||0),0))}
+function fillSelect(){const s=$("dProject"),v=s.value;s.innerHTML=projects.length?projects.map(p=>`<option value="${esc(p.id)}">${esc(p.title)}</option>`).join(""):'<option value="">عام (أي مشروع)</option>';if(v)s.value=v}
 function renderPublicAchievements(){
  const box=$("publicAchievements");box.innerHTML="";
- if(!achievements.length){box.innerHTML='<div class="card empty">ستظهر الإنجازات هنا عند إضافتها.</div>';return}
- achievements.forEach(a=>{const div=document.createElement("article");div.className="achievement";div.innerHTML=`<h3>${esc(a.title)}</h3><p class="muted">${esc(a.description||"")}</p><div class="goal">التكلفة: ${fmt(a.cost)} ج.س</div>`;box.appendChild(div)})
+ if(!achievements.length){box.innerHTML='<div class="empty">ستظهر الإنجازات هنا عند إضافتها.</div>';return}
+ achievements.forEach(a=>{const d=document.createElement("article");d.className="card ach";d.innerHTML=`<h3>${esc(a.title)}</h3><p class="muted">${esc(a.description||"")}</p><div class="cost">التكلفة: ${fmt(a.cost)} ج.س</div>`;box.appendChild(d)});
 }
+
+/* tabs */
 document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{
  document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x===b));
  document.querySelectorAll(".panel").forEach(x=>x.classList.toggle("active",x.id===b.dataset.panel));
 });
+
+/* admin */
 function startAdmin(){
- const dq=query(collection(db,"donations"),orderBy("createdAt","desc"));
- unsubs.push(onSnapshot(dq,s=>{donations=s.docs.map(d=>({id:d.id,...d.data()}));renderAdminDonations();renderAdminProjects()},e=>console.error(e)));
- unsubs.push(onSnapshot(collection(db,"users"),s=>{users=s.docs.map(d=>({id:d.id,...d.data()}));renderUsers()},e=>console.error(e)));
- renderAdminProjects();renderAdminAchievements();
+ unsubs.push(onSnapshot(query(collection(db,"donations"),orderBy("createdAt","desc")),s=>{donations=s.docs.map(d=>({id:d.id,...d.data()}));renderAdminDonations()},console.error));
+ unsubs.push(onSnapshot(collection(db,"users"),s=>{users=s.docs.map(d=>({id:d.id,...d.data()}));renderUsers()},console.error));
+ renderAdminProjects();renderAdminAchievements();renderAdminDonations();
 }
+function row(main,sub,acts){return `<div class="item"><div style="min-width:0;flex:1"><div class="t">${main}</div><div class="meta">${sub}</div></div><div class="acts">${acts}</div></div>`}
+const btn=(act,id,label,cls="")=>`<button class="btn sm ${cls}" type="button" data-act="${act}" data-id="${esc(id)}">${label}</button>`;
+
 function renderAdminDonations(){
- const confirmed=donations.filter(d=>d.status==="confirmed"),total=confirmed.reduce((a,d)=>a+(Number(d.amount)||0),0);
- $("adminTotal").textContent=fmt(total);$("adminCount").textContent=confirmed.length;$("adminProjectsCount").textContent=projects.length;
- const pending=$("pendingList"),done=$("confirmedList");pending.innerHTML="";done.innerHTML="";
- const waiting=donations.filter(d=>d.status==="pending");
- if(!waiting.length)pending.innerHTML='<div class="empty">لا توجد مساهمات معلقة.</div>';
- waiting.forEach(d=>{const x=document.createElement("div");x.className="item";x.innerHTML=`<div class="itemmain"><div class="itemtitle">${esc(d.phone||"مساهم")}</div><div class="meta">${esc(d.method||"")} • ${esc(date(d.createdAt))}${d.refNum?"<br>رقم العملية: "+esc(d.refNum):""}${d.note?"<br>ملاحظة: "+esc(d.note):""}${d.proofURL?`<br><a href="${esc(d.proofURL)}" target="_blank" rel="noopener">عرض إشعار التحويل</a>`:""}</div><div class="money">${fmt(d.amount)} ج.س</div></div><div class="actions"><button data-act="confirm" data-id="${esc(d.id)}">تأكيد</button><button class="reject" data-act="reject" data-id="${esc(d.id)}">رفض</button></div>`;pending.appendChild(x)});
- if(!confirmed.length)done.innerHTML='<div class="empty">لا توجد مساهمات مؤكدة بعد.</div>';
- confirmed.slice(0,30).forEach(d=>{const x=document.createElement("div");x.className="item";x.innerHTML=`<div class="itemmain"><div class="itemtitle">${esc(d.phone||"مساهم")} <span class="badge ok">مؤكد</span></div><div class="meta">${esc(d.method||"")} • ${esc(date(d.confirmedAt||d.createdAt))}</div></div><div class="money">${fmt(d.amount)} ج.س</div>`;done.appendChild(x)});
+ const ok=donations.filter(d=>d.status==="confirmed"),wait=donations.filter(d=>d.status==="pending");
+ $("adminTotal").textContent=fmt(ok.reduce((a,d)=>a+(Number(d.amount)||0),0));
+ $("adminCount").textContent=ok.length;$("adminProjectsCount").textContent=projects.length;
+ const pName=id=>esc((projects.find(p=>p.id===id)||{}).title||"");
+ const info=d=>`${esc(d.method||"")} ${d.projectId?"• "+pName(d.projectId):""} • ${esc(date(d.createdAt))}`;
+ $("pendingList").innerHTML=wait.length?wait.map(d=>row(`${esc(d.phone||"مساهم")} — ${fmt(d.amount)} ج.س`,info(d),btn("confirm",d.id,"تأكيد")+btn("reject",d.id,"رفض","red"))).join(""):'<div class="empty">لا توجد مساهمات معلّقة.</div>';
+ $("confirmedList").innerHTML=ok.length?ok.slice(0,50).map(d=>row(`${esc(d.phone||"مساهم")} — ${fmt(d.amount)} ج.س`,info(d),btn("delDonation",d.id,"حذف","red"))).join(""):'<div class="empty">لا توجد مساهمات مؤكدة بعد.</div>';
 }
-$("pendingList").onclick=async e=>{
- const b=e.target.closest("button[data-act]");if(!b||!isAdmin)return;
- const id=b.dataset.id;
- if(b.dataset.act==="confirm"){
-  if(!confirm("هل تحققت من وصول المبلغ فعلياً؟"))return;
-  try{await updateDoc(doc(db,"donations",id),{status:"confirmed",confirmedAt:serverTimestamp(),confirmedBy:currentUser.uid})}catch(e){alert(errorText(e))}
- }else{
-  const reason=prompt("سبب الرفض (اختياري):");if(reason===null)return;
-  try{await updateDoc(doc(db,"donations",id),{status:"rejected",rejectionReason:reason,rejectedAt:serverTimestamp(),rejectedBy:currentUser.uid})}catch(e){alert(errorText(e))}
- }
-};
 function renderAdminProjects(){
- if(!$("adminProjects"))return;$("adminProjects").innerHTML="";
- projects.forEach(p=>{const collected=donations.filter(d=>d.status==="confirmed"&&d.projectId===p.id).reduce((s,d)=>s+(Number(d.amount)||0),0),target=Number(p.target)||0,pc=target?Math.min(100,collected/target*100):0;const x=document.createElement("div");x.className="item";x.innerHTML=`<div class="itemmain"><div class="itemtitle">${esc(p.title)}</div><div class="meta">${esc(p.description||"")}<br>المستهدف: ${fmt(target)} • المحصل: ${fmt(collected)} ج.س</div><div class="progress"><span style="width:${pc}%"></span></div></div><button class="btn red" style="width:auto;padding:8px" data-delete-project="${esc(p.id)}">حذف</button>`;$("adminProjects").appendChild(x)});
- if(!projects.length)$("adminProjects").innerHTML='<div class="empty">لا توجد مشاريع.</div>';
+ const box=$("adminProjects");
+ box.innerHTML=projects.length?projects.map(p=>row(esc(p.title),`المستهدف ${fmt(p.target)} • المحصل ${fmt(p.raised)} ج.س`,btn("raised",p.id,"تحديث المحصل")+btn("delProject",p.id,"حذف","red"))).join(""):'<div class="empty">لا توجد مشاريع.</div>';
+ $("adminProjectsCount").textContent=projects.length;
 }
-$("adminProjects").onclick=async e=>{const b=e.target.closest("[data-delete-project]");if(!b||!confirm("حذف المشروع؟"))return;try{await import("https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js").then(m=>m.deleteDoc(doc(db,"projects",b.dataset.deleteProject)))}catch(e){alert(errorText(e))}};
+function renderAdminAchievements(){
+ $("adminAchievements").innerHTML=achievements.length?achievements.map(a=>row(esc(a.title),`التكلفة ${fmt(a.cost)} ج.س`,btn("delAchievement",a.id,"حذف","red"))).join(""):'<div class="empty">لا توجد إنجازات.</div>';
+}
+function renderUsers(){
+ $("usersList").innerHTML=users.length?users.map(u=>row(esc(u.name||u.email||u.id),esc(u.phone||u.email||""),"")).join(""):'<div class="empty">لا يوجد مستخدمون.</div>';
+}
+
+$("adminApp").addEventListener("click",async e=>{
+ const b=e.target.closest("[data-act]");if(!b||!isAdmin)return;
+ const id=b.dataset.id,act=b.dataset.act;b.disabled=true;
+ try{
+  if(act==="confirm")await updateDoc(doc(db,"donations",id),{status:"confirmed",confirmedAt:serverTimestamp()});
+  else if(act==="reject"){if(confirmDo("رفض هذه المساهمة؟"))await updateDoc(doc(db,"donations",id),{status:"rejected"})}
+  else if(act==="delDonation"){if(confirmDo("حذف المساهمة نهائياً؟"))await deleteDoc(doc(db,"donations",id))}
+  else if(act==="delProject"){if(confirmDo("حذف المشروع نهائياً؟"))await deleteDoc(doc(db,"projects",id))}
+  else if(act==="delAchievement"){if(confirmDo("حذف الإنجاز نهائياً؟"))await deleteDoc(doc(db,"achievements",id))}
+  else if(act==="raised"){const v=window.prompt("المبلغ المحصَّل (ج.س):");if(v!==null&&v.trim()!==""&&Number(v)>=0)await updateDoc(doc(db,"projects",id),{raised:Number(v)})}
+ }catch(err){alert(errorText(err))}
+ finally{b.disabled=false}
+});
+
 $("addProject").onclick=async()=>{
  const title=$("newProjectTitle").value.trim(),target=Number($("newProjectTarget").value),description=$("newProjectDesc").value.trim();
- if(!title||!Number.isSafeInteger(target)||target<=0)return msg("projectMessage","أدخل اسم المشروع ومبلغاً مستهدفاً صحيحاً.");
- try{await addDoc(collection(db,"projects"),{title,target,description,createdAt:serverTimestamp(),createdBy:currentUser.uid});$("newProjectTitle").value="";$("newProjectTarget").value="";$("newProjectDesc").value="";msg("projectMessage","تمت إضافة المشروع.",true)}catch(e){msg("projectMessage",errorText(e))}
+ if(!title||!(target>0))return msg("projectMessage","أدخل اسم المشروع ومبلغاً مستهدفاً صحيحاً.");
+ const b=$("addProject");b.disabled=true;
+ try{await addDoc(collection(db,"projects"),{title,target,description,imageUrl:/^https:\/\//.test($("newProjectImg").value.trim())?$("newProjectImg").value.trim():"",raised:0,createdAt:serverTimestamp()});
+  ["newProjectTitle","newProjectTarget","newProjectDesc","newProjectImg"].forEach(i=>$(i).value="");msg("projectMessage","تمت إضافة المشروع.",true)}
+ catch(e){msg("projectMessage",errorText(e))}finally{b.disabled=false}
 };
-function renderAdminAchievements(){
- if(!$("adminAchievements"))return;$("adminAchievements").innerHTML="";
- achievements.forEach(a=>{const x=document.createElement("div");x.className="item";x.innerHTML=`<div class="itemmain"><div class="itemtitle">${esc(a.title)}</div><div class="meta">${esc(a.description||"")}<br>التكلفة: ${fmt(a.cost)} ج.س</div></div><button class="btn red" style="width:auto;padding:8px" data-delete-ach="${esc(a.id)}">حذف</button>`;$("adminAchievements").appendChild(x)});
- if(!achievements.length)$("adminAchievements").innerHTML='<div class="empty">لا توجد إنجازات.</div>';
-}
-$("adminAchievements").onclick=async e=>{const b=e.target.closest("[data-delete-ach]");if(!b||!confirm("حذف الإنجاز؟"))return;try{await import("https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js").then(m=>m.deleteDoc(doc(db,"achievements",b.dataset.deleteAch)))}catch(e){alert(errorText(e))}};
 $("addAchievement").onclick=async()=>{
- const title=$("newAchievementTitle").value.trim(),cost=Number($("newAchievementCost").value),description=$("newAchievementDesc").value.trim();
- if(!title||!Number.isFinite(cost)||cost<0)return msg("achievementMessage","أدخل عنواناً وتكلفة صحيحة.");
- try{await addDoc(collection(db,"achievements"),{title,cost,description,createdAt:serverTimestamp(),createdBy:currentUser.uid});$("newAchievementTitle").value="";$("newAchievementCost").value="";$("newAchievementDesc").value="";msg("achievementMessage","تمت إضافة الإنجاز.",true)}catch(e){msg("achievementMessage",errorText(e))}
+ const title=$("newAchievementTitle").value.trim(),cost=Number($("newAchievementCost").value)||0,description=$("newAchievementDesc").value.trim();
+ if(!title)return msg("achievementMessage","أدخل عنوان الإنجاز.");
+ const b=$("addAchievement");b.disabled=true;
+ try{await addDoc(collection(db,"achievements"),{title,cost,description,createdAt:serverTimestamp()});
+  ["newAchievementTitle","newAchievementCost","newAchievementDesc"].forEach(i=>$(i).value="");msg("achievementMessage","تمت إضافة الإنجاز.",true)}
+ catch(e){msg("achievementMessage",errorText(e))}finally{b.disabled=false}
 };
-function renderUsers(){
- const box=$("usersList");box.innerHTML="";
- users.forEach(u=>{const me=u.uid===currentUser.uid,admin=u.role==="admin",x=document.createElement("div");x.className="item";x.innerHTML=`<div class="itemmain"><div class="itemtitle">${esc(u.email||u.phone||"عضو")} <span class="badge ${admin?"ok":""}">${admin?"مسؤول":"عضو"}</span></div><div class="meta">${esc(u.uid)}</div></div>${me?"":`<button class="btn ${admin?"red":""}" style="width:auto;padding:8px" data-user-role="${admin?"member":"admin"}" data-user-id="${esc(u.uid)}">${admin?"إزالة المسؤول":"ترقية لمسؤول"}</button>`}`;box.appendChild(x)});
- if(!users.length)box.innerHTML='<div class="empty">لا يوجد مستخدمون مسجلون.</div>';
-}
-$("usersList").onclick=async e=>{const b=e.target.closest("[data-user-id]");if(!b||!isAdmin)return;const uid=b.dataset.userId,role=b.dataset.userRole;if(uid===currentUser.uid)return;if(!confirm(role==="admin"?"ترقية هذا الحساب إلى مسؤول؟":"إزالة صلاحية المسؤول؟"))return;try{await updateDoc(doc(db,"users",uid),{role,roleUpdatedAt:serverTimestamp(),roleUpdatedBy:currentUser.uid})}catch(e){alert(errorText(e))}};
+let last=0;
+$("dSend").onclick=async()=>{
+ const phone=$("dPhone").value.replace(/[\s-]/g,""),amount=Number($("dAmount").value);
+ if(!/^\+?\d{7,15}$/.test(phone))return msg("dMsg","أدخل رقم هاتف صحيحاً.");
+ if(!(amount>0&&amount<=1e9))return msg("dMsg","أدخل مبلغاً صحيحاً.");
+ if(Date.now()-last<30000)return msg("dMsg","انتظر قليلاً قبل إرسال مساهمة أخرى.");
+ const b=$("dSend");b.disabled=true;
+ try{await addDoc(collection(db,"donations"),{phone,amount,projectId:$("dProject").value||"",method:$("dMethod").value,status:"pending",createdAt:serverTimestamp()});
+  last=Date.now();["dPhone","dAmount"].forEach(i=>$(i).value="");msg("dMsg","تم تسجيل مساهمتك. ستتواصل معك الإدارة. شكراً لك.",true)}
+ catch(e){msg("dMsg",errorText(e))}finally{b.disabled=false}
+};
 </script>
 </body>
 </html>
